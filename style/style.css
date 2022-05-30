@@ -1,0 +1,51 @@
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.intro-paragraph {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+.intro-button {
+  background-color: blueviolet;
+  color: aliceblue;
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 40px;
+  padding: 0px;
+  padding-top: 5px;
+}
+
+.intro-button:hover {
+  color: yellow;
+  width: 210px;
+  height: 70px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.card-container {
+  margin-left: 30px;
+}
+
+.wish-button {
+  background-color: blueviolet;
+  color: aliceblue;
+  width: 120px;
+  height: 40px;
+}
+
+.wish-button:hover {
+  color: yellow;
+}
