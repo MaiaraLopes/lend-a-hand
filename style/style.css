@@ -1,6 +1,6 @@
 .title {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 .intro-paragraph {
@@ -48,4 +48,32 @@
 
 .wish-button:hover {
   color: yellow;
+}
+
+.carousel {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: #000;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.carousel-inner {
+  height: 230px;
+}
+
+.carousel-caption {
+  color: #fff;
+  top: 50%;
+  font-size: 16px;
+}
+
+.source {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
