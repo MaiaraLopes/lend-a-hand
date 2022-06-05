@@ -77,3 +77,19 @@
   align-items: center;
   justify-content: space-evenly;
 }
+
+.contact-button {
+  background-color: blueviolet;
+  color: aliceblue;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 180px;
+  height: 40px;
+  padding: 0px;
+  padding-top: 5px;
+}
+
+.contact-button:hover {
+  color: yellow;
+}
