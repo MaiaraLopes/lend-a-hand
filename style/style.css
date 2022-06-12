@@ -28,7 +28,7 @@ body {
 
 .intro-button {
   background-color: var(--color-two);
-  color: var(--color-four);
+  color: var(--color-three);
   display: block;
   margin: 0 auto;
   width: 120px;
@@ -81,6 +81,9 @@ body {
   background-color: var(--color-one);
   margin-top: 50px;
   border-radius: 10px;
+  border-color: var(--color-five);
+  border-width: 4px;
+  border-style: solid;
 }
 
 .carousel-inner {
@@ -88,7 +91,7 @@ body {
 }
 
 .carousel-caption {
-  color: var(--color-four);
+  color: var(--color-three);
   top: 50%;
   font-size: 16px;
 }
@@ -115,6 +118,7 @@ body {
 }
 
 .contact-button:hover {
+  opacity: 0.8;
   color: var(--color-three);
 }
 
