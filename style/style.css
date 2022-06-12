@@ -1,3 +1,19 @@
+:root {
+  --color-one: #0081a7;
+  --color-two: #00afb9;
+  --color-three: #fdfcdc;
+  --color-four: #fed9b7;
+  --color-five: #f07167;
+}
+
+body {
+  background-color: var(--color-three);
+}
+
+.navbar-custom {
+  background-color: var(--color-one);
+}
+
 .title {
   text-align: center;
   margin-top: 80px;
@@ -11,8 +27,8 @@
 }
 
 .intro-button {
-  background-color: blueviolet;
-  color: aliceblue;
+  background-color: var(--color-two);
+  color: var(--color-four);
   display: block;
   margin: 0 auto;
   width: 120px;
@@ -22,7 +38,8 @@
 }
 
 .intro-button:hover {
-  color: yellow;
+  color: var(--color-three);
+  opacity: 0.7;
   width: 210px;
   height: 70px;
   font-size: 30px;
@@ -36,25 +53,32 @@
 }
 
 .card-container {
-  margin-left: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  border-color: var(--color-five);
+  border-width: 3px;
 }
 
 .wish-button {
-  background-color: blueviolet;
-  color: aliceblue;
+  background-color: var(--color-two);
+  color: var(--color-three);
   width: 120px;
   height: 40px;
 }
 
 .wish-button:hover {
-  color: yellow;
+  color: var(--color-three);
+  opacity: 0.8;
 }
 
 .carousel {
   display: block;
   margin: 0 auto;
   max-width: 500px;
-  background-color: #000;
+  background-color: var(--color-one);
   margin-top: 50px;
   border-radius: 10px;
 }
@@ -64,7 +88,7 @@
 }
 
 .carousel-caption {
-  color: #fff;
+  color: var(--color-four);
   top: 50%;
   font-size: 16px;
 }
@@ -79,8 +103,8 @@
 }
 
 .contact-button {
-  background-color: blueviolet;
-  color: aliceblue;
+  background-color: var(--color-two);
+  color: var(--color-three);
   display: block;
   margin: 0 auto;
   margin-top: 50px;
@@ -91,5 +115,44 @@
 }
 
 .contact-button:hover {
-  color: yellow;
+  color: var(--color-three);
+}
+
+.top-button {
+  background-color: #00afb9;
+  color: #fdfcdc;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-right: 20px;
+  float: right;
+}
+
+.top-button:hover {
+  color: #fed9b7;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 700px) {
+  .title {
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wish-button {
+    max-width: 100px;
+  }
+
+  .intro-paragraph {
+    font-size: 18px;
+  }
+
+  .carousel {
+    padding-bottom: 20px;
+    margin: 10px;
+  }
 }
