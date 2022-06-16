@@ -14,6 +14,10 @@ body {
   background-color: var(--color-one);
 }
 
+.navbar-nav .nav-item:hover .nav-link {
+  color: var(--color-five);
+}
+
 .title {
   text-align: center;
   margin-top: 80px;
